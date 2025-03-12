@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/rendy/Desktop/bjjbld_android/bjjj_android_main/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/rendy/Desktop/bjjbld_android/bjjj_android_main/BJJJ_Driving_Android/bJJJ_Driving/build/generated/res/resValues/androidTest/debug/values/generated.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "157",
+                        "endColumns": "62",
+                        "endOffsets": "215"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "62",
+                        "endOffsets": "113"
+                    }
+                }
+            ]
+        }
+    ]
+}

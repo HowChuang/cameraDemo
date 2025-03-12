@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/e116e067b7a4828774c16f74a17d9d49/res/values-v17/values-v17.xml",
+                    "from": {
+                        "startLines": "18,22,29",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "936,1161,1559",
+                        "endLines": "21,24,32",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1156,1326,1778"
+                    }
+                },
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/7d80c1b9c6a43e360800d86c76fc6c4a/res/values-v17/values-v17.xml",
+                    "from": {
+                        "startLines": "4,7,11,14,17,20,24,28,31,34,37,41,44,48",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "233,406,634,792,942,1114,1342,1584,1755,1929,2098,2371,2571,2775",
+                        "endLines": "6,10,13,16,19,23,27,30,33,36,40,43,47,51",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "401,629,787,937,1109,1337,1579,1750,1924,2093,2366,2566,2770,3099"
+                    },
+                    "to": {
+                        "startLines": "2,5,9,12,15,25,33,37,40,43,46,50,53,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,228,456,614,764,1331,1783,2025,2196,2370,2539,2812,3012,3216",
+                        "endLines": "4,8,11,14,17,28,36,39,42,45,49,52,56,60",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "223,451,609,759,931,1554,2020,2191,2365,2534,2807,3007,3211,3540"
+                    }
+                }
+            ]
+        }
+    ]
+}

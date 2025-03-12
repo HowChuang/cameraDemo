@@ -1,0 +1,256 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zcbl.bjjj_driving"
+4    android:versionCode="108"
+5    android:versionName="3.4.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:70:5-72:39
+12        android:name="android.hardware.camera"
+12-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:71:13-51
+13        android:required="true" />
+13-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:72:13-36
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:74:5-70
+14-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:74:19-67
+15    <uses-feature
+15-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:75:5-77:39
+16        android:name="android.hardware.camera.front"
+16-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:76:13-57
+17        android:required="true" />
+17-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:77:13-36
+18
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:79:5-81
+19-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:79:22-78
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:80:5-65
+20-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:80:22-62
+21    <uses-permission android:name="android.hardware.camera.autofocus" />
+21-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:81:5-73
+21-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:81:22-70
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:82:5-67
+22-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:82:22-64
+23
+24    <!-- 往SDCard写入数据权限 -->
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:85:5-80
+25-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:85:22-77
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:88:5-79
+26-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:88:22-76
+27    <!-- hua clear -->
+28    <!-- <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" /> -->
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:91:5-66
+29-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:91:22-63
+30    <!-- //上闪光灯功能 -->
+31    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+31-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:93:5-89
+31-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:93:22-86
+32    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+32-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:95:5-79
+32-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:95:22-76
+33    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+33-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:96:5-75
+33-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:96:22-72
+34    <uses-permission android:name="android.permission.FLASHLIGHT" />
+34-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:98:5-69
+34-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:98:22-66
+35
+36    <!-- 百度地图申请权限 -->
+37    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+37-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:101:5-84
+37-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:101:22-81
+38    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+38-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:102:5-81
+38-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:102:22-78
+39    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+39-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:103:5-81
+39-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:103:22-78
+40    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+40-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:104:5-78
+40-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:104:22-75
+41    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+41-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:105:5-79
+41-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:105:22-76
+42    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+42-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:106:5-85
+42-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:106:22-82
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:107:5-68
+43-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:107:22-65
+44    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+44-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:108:5-76
+44-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:108:22-73
+45    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+45-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:109:5-76
+45-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:109:22-73
+46    <uses-permission android:name="android.permission.ACCESS_GPS" />
+46-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:110:5-69
+46-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:110:22-66
+47    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+47-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:111:5-71
+47-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:111:22-68
+48    <!-- 适配折叠屏 -->
+49    <!-- android:configChanges="screenSize|smallestScreenSize|screenLayout" -->
+50    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+50-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:114:5-75
+50-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:114:22-72
+51    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+51-->[com.lzy.net:okgo:3.0.4] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/b70bab68d98e15bdf38f01230f4b18bd/transformed/jetified-okgo-3.0.4/AndroidManifest.xml:29:5-84
+51-->[com.lzy.net:okgo:3.0.4] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/b70bab68d98e15bdf38f01230f4b18bd/transformed/jetified-okgo-3.0.4/AndroidManifest.xml:29:22-81
+52
+53    <uses-feature
+53-->[cn.bingoogolapple:bga-qrcode-core:1.2.5] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/0e1e03eab8e8c66e93e8a5dcb83bcfaa/transformed/jetified-bga-qrcode-core-1.2.5/AndroidManifest.xml:15:5-17:36
+54        android:name="android.hardware.camera.flash"
+54-->[cn.bingoogolapple:bga-qrcode-core:1.2.5] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/0e1e03eab8e8c66e93e8a5dcb83bcfaa/transformed/jetified-bga-qrcode-core-1.2.5/AndroidManifest.xml:16:9-53
+55        android:required="false" /> <!-- 违法举报camera权限 -->
+55-->[cn.bingoogolapple:bga-qrcode-core:1.2.5] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/0e1e03eab8e8c66e93e8a5dcb83bcfaa/transformed/jetified-bga-qrcode-core-1.2.5/AndroidManifest.xml:17:9-33
+56    <application
+56-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:8:5-68:19
+57        android:name="com.zcbl.manager.MyApplication"
+57-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:9:13-58
+58        android:allowBackup="true"
+58-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:10:13-39
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.2.0] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/b7971007e7f313697d23fe0f695b8d93/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+60        android:debuggable="true"
+61        android:exported="true"
+61-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:11:13-36
+62        android:extractNativeLibs="false"
+63        android:hardwareAccelerated="true"
+63-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:12:13-47
+64        android:icon="@mipmap/neng"
+64-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:13:13-40
+65        android:label="@string/app_name"
+65-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:14:13-45
+66        android:supportsRtl="true"
+66-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:15:13-39
+67        android:theme="@style/DemoAppTheme"
+67-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:16:13-48
+68        android:usesCleartextTraffic="true" >
+68-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:17:13-48
+69        <provider
+70            android:name="androidx.core.content.FileProvider"
+70-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:21:17-66
+71            android:authorities="com.zcbl.bjjj_driving.provider"
+71-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:22:17-64
+72            android:exported="false"
+72-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:23:17-41
+73            android:grantUriPermissions="true" >
+73-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:24:17-51
+74            <meta-data
+74-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:26:13-29:53
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:27:21-71
+76                android:resource="@xml/file_provider_paths" />
+76-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:28:21-64
+77        </provider>
+78
+79        <activity
+79-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:32:9-39:59
+80            android:name="com.zcbl.suishoupai.PlayVideoSspActivity"
+80-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:33:17-72
+81            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+81-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:34:17-83
+82            android:exported="true"
+82-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:35:17-40
+83            android:launchMode="singleTask"
+83-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:36:17-48
+84            android:screenOrientation="portrait"
+84-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:38:17-53
+85            android:windowSoftInputMode="adjustPan" />
+85-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:39:17-56
+86        <activity
+86-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:40:9-44:56
+87            android:name="com.zcbl.suishoupai.PlayPictureSspActivity"
+87-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:41:17-74
+88            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+88-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:42:17-83
+89            android:exported="true"
+89-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:43:17-40
+90            android:screenOrientation="portrait" />
+90-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:44:17-53
+91        <activity
+91-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:46:9-52:59
+92            android:name="com.zcbl.suishoupai.HomeSSPActivity"
+92-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:47:17-67
+93            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+93-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:48:17-83
+94            android:exported="true"
+94-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:49:17-40
+95            android:launchMode="singleTask"
+95-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:50:17-48
+96            android:screenOrientation="portrait"
+96-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:51:17-53
+97            android:windowSoftInputMode="adjustPan" />
+97-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:52:17-56
+98        <activity
+98-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:53:9-61:20
+99            android:name="com.zcbl.suishoupai.SspPermissionActivity"
+99-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:54:17-73
+100            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+100-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:55:17-83
+101            android:exported="true" >
+101-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:56:17-40
+102            <intent-filter>
+102-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:57:13-60:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:58:17-69
+103-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:58:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:59:17-77
+105-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:59:27-74
+106            </intent-filter>
+107        </activity>
+108
+109        <!-- Android 6.0不再支持 Apache HTTP client -->
+110        <uses-library
+110-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:65:9-67:44
+111            android:name="org.apache.http.legacy"
+111-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:66:17-54
+112            android:required="false" />
+112-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:67:17-41
+113
+114        <activity
+114-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:25:9-30:75
+115            android:name="com.yanzhenjie.permission.PermissionActivity"
+115-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:26:13-72
+116            android:configChanges="keyboardHidden|orientation|screenSize"
+116-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:27:13-74
+117            android:launchMode="standard"
+117-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:28:13-42
+118            android:theme="@style/Permission.Theme.Activity"
+118-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:29:13-61
+119            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+119-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:30:13-72
+120
+121        <provider
+121-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:32:9-40:20
+122            android:name="com.yanzhenjie.permission.FileProvider"
+122-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:33:13-66
+123            android:authorities="com.zcbl.bjjj_driving.file.path.share"
+123-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:34:13-67
+124            android:exported="false"
+124-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:35:13-37
+125            android:grantUriPermissions="true" >
+125-->[com.yanzhenjie:permission:2.0.0-rc11] /Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/ea16428a9a0ec30f27b0052e83d2012e/transformed/jetified-permission-2.0.0-rc11/AndroidManifest.xml:36:13-47
+126            <meta-data
+126-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:26:13-29:53
+127                android:name="android.support.FILE_PROVIDER_PATHS"
+127-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:27:21-71
+128                android:resource="@xml/permission_file_paths" />
+128-->/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/src/main/AndroidManifest.xml:28:21-64
+129        </provider>
+130    </application>
+131
+132</manifest>

@@ -1,0 +1,173 @@
+{
+  "homeLogic1": [
+    {
+      "group": "homeLogic1",
+      "login": 1,
+      "title": "进京证办理",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_jinjingzheng_v2.png",
+      "target": "ZCBLJinJingZheng",
+      "pageType": 1
+    },
+    {
+      "group": "homeLogic1",
+      "login": 0,
+      "title": "随手拍",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_suishoupai_v5.png",
+      "target": "suishoupai",
+      "pageType": 1
+    },
+    {
+      "group": "homeLogic1",
+      "login": 1,
+      "title": "掌上车管所",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_cheguansuo_v1.png",
+      "target": "ZCBLCheGuanSuo",
+      "pageType": 1
+    }
+  ],
+  "top": [
+    {
+      "imgUrl": "https://bjjj.zhongchebaolian.com/HomePageBanner/xianxingbanner_v2.jpg",
+      "pageType": 0,
+      "publishTime": "2020.06.05",
+      "order": 0,
+      "title": "",
+      "targetClass": "http://jtgl.beijing.gov.cn/jgj/jgxx/94246/95332/10810340/index.html",
+      "group": "top",
+      "login": 0
+    },
+    {
+      "imgUrl": "https://bjjj.zhongchebaolian.com/HomePageBanner/home_banner_12123_v1_4.png",
+      "pageType": 0,
+      "publishTime": "2019.12.28",
+      "order": 0,
+      "title": "",
+      "targetClass": "http://gab.122.gov.cn/app/m/static/page/download/download.html",
+      "group": "top",
+      "login": 0
+    },
+    {
+      "imgUrl": "https://bjjj.zhongchebaolian.com/HomePageBanner/BJJJ_HOME_BANNER_JINGXINHUZHU.png",
+      "pageType": 0,
+      "publishTime": "2020.03.01",
+      "order": 0,
+      "title": "",
+      "targetClass": "https://bjjj.zhongchebaolian.com/bjjjappweb/appbanner/jinxinxiangzhu.htm",
+      "group": "top",
+      "login": 0
+    }
+  ],
+  "homeLogic2": [
+    {
+      "group": "homeLogic2",
+      "login": 0,
+      "title": "违法查缴",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_weifachajiao_v4.png",
+      "target": "https://bjjj.zhongchebaolian.com/bjjjappweb/appbanner/download12123.htm",
+      "pageType": 0
+    },
+    {
+      "group": "homeLogic2",
+      "login": 0,
+      "title": "挪车求助",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_nuocheqiuzhu_v4.png",
+      "target": "ZCBLMoveCarServie",
+      "pageType": 1
+    },
+    {
+      "group": "homeLogic2",
+      "login": 1,
+      "title": "交强险查询",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/all_jiaoqiangxianquery_v4.png",
+      "target": "https://bjjj.zhongchebaolian.com/einsurancepolicy/jsp/elePolicy.html",
+      "pageType": 0
+    },
+    {
+      "group": "homeLogic2",
+      "login": 0,
+      "title": "京心相助",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_jinxinxiangzhu_v4.png",
+      "target": "https://bjjj.zhongchebaolian.com/bjjjappweb/appbanner/jinxinxiangzhu.htm",
+      "pageType": 0
+    },
+    {
+      "group": "homeLogic2",
+      "login": 1,
+      "title": "安全宣传",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_anquanxuanchuan_v4.png",
+      "target": "https://bjjj.zhongchebaolian.com/chaifen/business-safe-drumbeating/SafetyAdvertise.html",
+      "pageType": 0
+    },
+    {
+      "group": "homeLogic2",
+      "login": 0,
+      "title": "办事指南",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_banshizhinan_v4.png",
+      "target": "ZCBLBanShiZhiNan",
+      "pageType": 1
+    },
+    {
+      "group": "homeLogic2",
+      "login": 0,
+      "title": "事故认定书",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_shigurendingshu_v4.png",
+      "target": "https://bjjj.zhongchebaolian.com/electrocar/",
+      "pageType": 0
+    },
+    {
+      "group": "homeLogic2",
+      "login": 0,
+      "title": "全部",
+      "iconUrl": "https://bjjj.zhongchebaolian.com/HomePageIcon/home_quanbu_v4.png",
+      "target": "ZCBLAllBusiness",
+      "pageType": 1
+    }
+  ],
+  "bottom": [
+    {
+      "pageType": 0,
+      "publishTime": "2020.04.07",
+      "order": 0,
+      "title": "预约验车模块下线通知",
+      "targetClass": "https://bjjj.zhongchebaolian.com/bjjjappweb/home/yanche/tip.htm",
+      "group": "bottom",
+      "login": 0
+    },
+    {
+      "pageType": 0,
+      "publishTime": "2020.01.24",
+      "order": 0,
+      "title": "严控大货车违法上路行驶，北京交警对七类交通违法“零容忍”",
+      "targetClass": "http://jtgl.beijing.gov.cn/jgj/lszt/659722/660940/index.html",
+      "group": "bottom",
+      "login": 0
+    },
+    {
+      "pageType": 0,
+      "publishTime": "2020.01.24",
+      "order": 0,
+      "title": "一图读懂交通违法处罚细则",
+      "targetClass": "http://jtgl.beijing.gov.cn/jgj/lszt/659722/660869/index.html",
+      "group": "bottom",
+      "login": 0
+    },
+    {
+      "pageType": 0,
+      "publishTime": "2020.01.24",
+      "order": 0,
+      "title": "国一国二车辆限行政策解读",
+      "targetClass": "http://jtgl.beijing.gov.cn/jgj/lszt/659722/660621/index.html",
+      "group": "bottom",
+      "login": 0
+    },
+    {
+      "pageType": 0,
+      "publishTime": "2020.01.24",
+      "order": 0,
+      "title": "外地车进京注意事项",
+      "targetClass": "http://jtgl.beijing.gov.cn/jgj/lszt/659722/659725/index.html",
+      "group": "bottom",
+      "login": 0
+    }
+  ]
+}

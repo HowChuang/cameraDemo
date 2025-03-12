@@ -1,0 +1,161 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From BJJJ_Driving:
+* ant.properties
+* build.xml
+* custom_rules.xml
+* hs_err_pid2352.log
+* hs_err_pid4644.log
+* hs_err_pid6524.log
+* hs_err_pid6612.log
+* hs_err_pid8368.log
+* hs_err_pid8532.log
+* hs_err_pid8560.log
+* hs_err_pid9192.log
+* hs_err_pid9496.log
+* proguard-project.txt
+From CameraLibrary:
+* build.xml
+* ic_launcher-web.png
+* proguard-project.txt
+From gesture-imageview:
+* .gitignore
+* build.xml
+* gesture-imageview.iml
+* proguard-project.txt
+* proguard.cfg
+From library:
+* LICENSE
+* build.xml
+* pom.xml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.2.1.jar => com.google.code.gson:gson:2.2.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.1.jar => version 2.2.1 in com.google.code.gson:gson:2.2.1
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:19.1.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In CameraLibrary:
+* AndroidManifest.xml => cameraLibrary/src/main/AndroidManifest.xml
+* assets/ => cameraLibrary/src/main/assets
+* libs/support-compat-26.0.0.jar => cameraLibrary/libs/support-compat-26.0.0.jar
+* libs/support-core-ui-26.0.0.jar => cameraLibrary/libs/support-core-ui-26.0.0.jar
+* res/ => cameraLibrary/src/main/res/
+* src/ => cameraLibrary/src/main/java/
+In gesture-imageview:
+* AndroidManifest.xml => gestureimageview/src/main/AndroidManifest.xml
+* assets/ => gestureimageview/src/main/assets
+* res/ => gestureimageview/src/main/res
+* src/ => gestureimageview/src/main/java/
+In library:
+* AndroidManifest.xml => library/src/main/AndroidManifest.xml
+* assets/ => library/src/main/assets
+* lint.xml => library/lint.xml
+* res/ => library/src/main/res/
+* src/ => library/src/main/java/
+In BJJJ_Driving:
+* AndroidManifest.xml => bJJJ_Driving/src/main/AndroidManifest.xml
+* assets/ => bJJJ_Driving/src/main/assets/
+* libs/AMap_Location_V3.0.0_20160922.jar => bJJJ_Driving/libs/AMap_Location_V3.0.0_20160922.jar
+* libs/BaiduLBS_Android.jar => bJJJ_Driving/libs/BaiduLBS_Android.jar
+* libs/GDTUnionSDK.4.13.556.min.jar => bJJJ_Driving/libs/GDTUnionSDK.4.13.556.min.jar
+* libs/GifView.jar => bJJJ_Driving/libs/GifView.jar
+* libs/SecurityGuardSDK-5.3.38.jar => bJJJ_Driving/libs/SecurityGuardSDK-5.3.38.jar
+* libs/SocialSDK_Sina_Full.jar => bJJJ_Driving/libs/SocialSDK_Sina_Full.jar
+* libs/SocialSDK_WeChat_Simplify.jar => bJJJ_Driving/libs/SocialSDK_WeChat_Simplify.jar
+* libs/SocialSDK_sms.jar => bJJJ_Driving/libs/SocialSDK_sms.jar
+* libs/TZL_SNMISDK-1.4.jar => bJJJ_Driving/libs/TZL_SNMISDK-1.4.jar
+* libs/afinal0.5.jar => bJJJ_Driving/libs/afinal0.5.jar
+* libs/android_api_1.1_forsdk.jar => bJJJ_Driving/libs/android_api_1.1_forsdk.jar
+* libs/armeabi/libBaiduMapSDK_v3_5_0_15.so => bJJJ_Driving/src/main/jniLibs/armeabi/libBaiduMapSDK_v3_5_0_15.so
+* libs/armeabi/libjpush216.so => bJJJ_Driving/src/main/jniLibs/armeabi/libjpush216.so
+* libs/armeabi/liblocSDK6a.so => bJJJ_Driving/src/main/jniLibs/armeabi/liblocSDK6a.so
+* libs/armeabi/libmp3lame.so => bJJJ_Driving/src/main/jniLibs/armeabi/libmp3lame.so
+* libs/armeabi/libsgmain.so => bJJJ_Driving/src/main/jniLibs/armeabi/libsgmain.so
+* libs/armeabi/libweibosdkcore.so => bJJJ_Driving/src/main/jniLibs/armeabi/libweibosdkcore.so
+* libs/eventbus-1.0.1.jar => bJJJ_Driving/libs/eventbus-1.0.1.jar
+* libs/httpmime-4.1.3.jar => bJJJ_Driving/libs/httpmime-4.1.3.jar
+* libs/imageloader.jar => bJJJ_Driving/libs/imageloader.jar
+* libs/jpush-android-2.1.6.jar => bJJJ_Driving/libs/jpush-android-2.1.6.jar
+* libs/umeng-analytics-v6.0.7.jar => bJJJ_Driving/libs/umeng-analytics-v6.0.7.jar
+* libs/umeng_social_api.jar => bJJJ_Driving/libs/umeng_social_api.jar
+* libs/umeng_social_net.jar => bJJJ_Driving/libs/umeng_social_net.jar
+* libs/umeng_social_shareview.jar => bJJJ_Driving/libs/umeng_social_shareview.jar
+* libs/umeng_social_tool.jar => bJJJ_Driving/libs/umeng_social_tool.jar
+* libs/weiboSDKCore_3.1.4.jar => bJJJ_Driving/libs/weiboSDKCore_3.1.4.jar
+* libs/x86/libjpush216.so => bJJJ_Driving/src/main/jniLibs/x86/libjpush216.so
+* libs/x86/libsgmain.so => bJJJ_Driving/src/main/jniLibs/x86/libsgmain.so
+* libs/x86/libweibosdkcore.so => bJJJ_Driving/src/main/jniLibs/x86/libweibosdkcore.so
+* libs/xUtils-2.6.14.jar => bJJJ_Driving/libs/xUtils-2.6.14.jar
+* libs/zxing.jar => bJJJ_Driving/libs/zxing.jar
+* lint.xml => bJJJ_Driving/lint.xml
+* res/ => bJJJ_Driving/src/main/res/
+* src/ => bJJJ_Driving/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/e116e067b7a4828774c16f74a17d9d49/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,32,34,35,36",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,2079,2311,2426,2533",
+                        "endColumns": "134,126,114,106,112",
+                        "endOffsets": "185,2201,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "2,24,26,27,28",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,1615,1847,1962,2069",
+                        "endColumns": "134,126,114,106,112",
+                        "endOffsets": "185,1737,1957,2064,2177"
+                    }
+                },
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc11.aar/b6b2531f998967a7bd81fb0d3dd56244/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "253"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "2182",
+                        "endLines": "32",
+                        "endColumns": "12",
+                        "endOffsets": "2380"
+                    }
+                },
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/7d80c1b9c6a43e360800d86c76fc6c4a/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "4,7,8,9,18,29",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "239,553,628,715,1273,2022",
+                        "endLines": "4,7,8,17,26,29",
+                        "endColumns": "134,74,86,12,12,104",
+                        "endOffsets": "369,623,710,1268,1838,2122"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,15,25",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "190,325,400,487,1045,1742",
+                        "endLines": "3,4,5,14,23,25",
+                        "endColumns": "134,74,86,12,12,104",
+                        "endOffsets": "320,395,482,1040,1610,1842"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 拍照布局 -->
+    <LinearLayout
+        android:id="@+id/area_take_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_startPic"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:text="需拍摄2张违法图片"
+                android:textColor="#ff666666"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp">
+
+                    <ImageView
+                        android:id="@+id/iv_pic1"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@mipmap/ssp_img_bg1_select"
+                        android:onClick="onClick"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv_pic1_close"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@mipmap/ssp_icon_photo_delete"
+                        android:onClick="onClick"
+                        android:visibility="gone" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/area_take_pic_anim"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ssp_btn_bg">
+
+                    <LinearLayout
+                        android:id="@+id/area_take_pic_center"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_take_picing"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:src="@mipmap/ssp_icon_camera" />
+
+                        <TextView
+                            android:id="@+id/tv_take_pic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="第一张"
+                            android:textColor="#ffffffff"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_loading_pic"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_centerInParent="true"
+                        android:background="@mipmap/ssp_icon_loading"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginRight="15dp">
+
+                    <ImageView
+                        android:id="@+id/iv_pic2"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@mipmap/ssp_img_bg2_default"
+                        android:onClick="onClick"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv_pic2_close"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@mipmap/ssp_icon_photo_delete"
+                        android:onClick="onClick"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--文字导航-->
+    <RelativeLayout
+        android:id="@+id/area_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/tv_pic_2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/tv_pic_1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="拍视频"
+                android:textColor="#ff666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_nav_index_2"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/common_bule_ssp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/tv_pic_1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拍照片"
+                android:textColor="@color/ssp_blue"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_nav_index_1"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/common_bule_ssp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

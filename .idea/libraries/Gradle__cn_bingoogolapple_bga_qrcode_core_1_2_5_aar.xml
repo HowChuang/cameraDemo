@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.bingoogolapple:bga-qrcode-core:1.2.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/transforms-3/0e1e03eab8e8c66e93e8a5dcb83bcfaa/transformed/jetified-bga-qrcode-core-1.2.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Documents/studio/sdk/caches/transforms-3/0e1e03eab8e8c66e93e8a5dcb83bcfaa/transformed/jetified-bga-qrcode-core-1.2.5/res" />
+      <root url="file://$USER_HOME$/Documents/studio/sdk/caches/transforms-3/0e1e03eab8e8c66e93e8a5dcb83bcfaa/transformed/jetified-bga-qrcode-core-1.2.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/modules-2/files-2.1/cn.bingoogolapple/bga-qrcode-core/1.2.5/947991afa6cc8ae52f69f4fb8b0f9eaa4e517000/bga-qrcode-core-1.2.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/modules-2/files-2.1/cn.bingoogolapple/bga-qrcode-core/1.2.5/db2546597b3f41cbfd0d54bf956a05744e6b62b9/bga-qrcode-core-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

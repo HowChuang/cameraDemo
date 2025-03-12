@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_main_color"
+        android:orientation="vertical"
+        android:paddingTop="25dp">
+
+    <include layout="@layout/aty_common_head" />
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="随手拍  "
+                        android:textColor="#FF333333"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="随手拍 需要您授权以下服务"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/area_net"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/common_greay_round"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:background="@mipmap/icon_wifi"
+                        android:gravity="left"
+                        android:text="随手拍 需要您授权以下服务"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="网络权限"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                <ImageView
+                        android:id="@+id/iv_net"
+                        android:layout_width="24dp"
+                        android:layout_height="22dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/area_camera"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/common_greay_round"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:background="@mipmap/icon_camera_power"
+                        android:gravity="left"
+                        android:text="随手拍 需要您授权以下服务"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="相机权限"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                <ImageView
+                        android:id="@+id/iv_camera"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/area_voice"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/common_greay_round"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:background="@mipmap/icon_micro"
+                        android:gravity="left"
+                        android:text="随手拍 需要您授权以下服务"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="麦克风权限"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                <ImageView
+                        android:id="@+id/iv_voice"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/area_storage"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/common_greay_round"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:background="@mipmap/icon_storage"
+                        android:gravity="left"
+                        android:text="随手拍 需要您授权以下服务"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="存储权限"
+                        android:textColor="#FF333333"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                <ImageView
+                        android:id="@+id/iv_storage"
+                        android:layout_width="24dp"
+                        android:layout_height="19dp" />
+            </LinearLayout>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="如果所有权限开启后仍无法拍摄请您检查：\n1.手机网络是否可用 \n2.手机定位功能是否打开"
+                    android:textColor="#FF666666"
+                    android:textSize="14sp" />
+
+            <TextView
+                    android:id="@+id/tv_start"
+                    android:layout_width="187dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/common_bule_ssp"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="开启录制"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+        <LinearLayout
+                android:id="@+id/v_head_aty_top_back"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="onClick">
+
+            <ImageView
+                    android:id="@+id/iv_aty_head_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/title_icon_return_up" />
+
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/tv_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/common_half_black_5"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="1/2"
+                android:textColor="@color/color_999999" />
+    </RelativeLayout>
+
+
+    <com.common.widget.HackyViewPager
+            android:id="@+id/photo_preview_vp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="16dp"
+            android:visibility="gone">
+
+        <com.common.widget.LineImageValue
+                android:id="@+id/li_1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="onClick" />
+
+        <com.common.widget.LineImageValue
+                android:id="@+id/li_2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClick" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="56dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/common_bule_ssp"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="返回"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

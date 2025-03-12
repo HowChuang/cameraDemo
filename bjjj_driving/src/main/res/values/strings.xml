@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="carinfo_btn_confirm">确认</string>
+    <string name="app_name">随手拍</string>
+
+
+    <!-- 我的资料 -->
+    <string name="personinfo_text_boy">男</string>
+    <string name="personinfo_text_girl">女</string>
+    <!-- 头像选择对话框内容 -->
+    <string name="dialogpic_text_1">拍照</string>
+    <string name="dialogpic_text_2">从手机相册选择</string>
+    <string name="dialogpic_text_3">取消</string>
+    <item name="isSelect" type="id"></item>
+    <item name="isNoSelect" type="id"></item>
+    <string name="loading">正在加载中</string>
+    <string name="net_err">网络异常，请检查网络设置</string>
+    <string name="network_week">请求失败，请重试</string>
+    <string name="camerasdk_album_all">所有相册</string>
+
+
+
+</resources>

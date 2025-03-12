@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/7d80c1b9c6a43e360800d86c76fc6c4a/res/values-hdpi/values-hdpi.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "235",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

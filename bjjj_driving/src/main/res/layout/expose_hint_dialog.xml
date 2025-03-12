@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/serenity_tuoyuan"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_expose_hint_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:text="违法投诉行为需要提供违法行为的地点信息\n\n请打开定位"
+            android:textColor="#222222"
+            android:textSize="18sp" />
+
+    <LinearLayout
+            android:id="@+id/iv_error"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+        <ImageView
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+    <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="是否取消本次投诉"
+            android:textColor="#ff333333"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#E5E5E5" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+                android:id="@+id/but_expose_hint_cancel"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="#1A8CFF"
+                android:textSize="18sp" />
+
+        <View
+                android:id="@+id/line_bottom"
+                android:layout_width="0.5dp"
+                android:layout_height="50dp"
+                android:background="#E5E5E5" />
+
+        <TextView
+                android:id="@+id/but_expose_hint_confirm"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确认"
+                android:textColor="#1A8CFF"
+                android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

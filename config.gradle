@@ -1,0 +1,21 @@
+ext {
+
+    cfgs = [
+            compileSdkVersion: 34,
+            buildToolsVersion: "33",
+            minSdkVersion    : 24,
+            targetSdkVersion : 34,
+//            compileSdkVersion: 29,
+//            buildToolsVersion: "29.0.0",
+//            minSdkVersion    : 19,
+//            targetSdkVersion : 29,
+            versionCode      : 108,
+            versionName      : "3.4.0",
+    ]
+    googleSupprot = [
+            androidSupportVersion: "28.0.0",
+            flutterVersion       : "1.0.0-9d5b21729ff53dbf8eadd8bc97e0e30d77abec95",
+
+    ]
+
+}

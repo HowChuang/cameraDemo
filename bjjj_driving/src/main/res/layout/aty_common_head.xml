@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/app_main_color">
+
+    <LinearLayout
+            android:id="@+id/v_head_aty_top_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick">
+
+        <ImageView
+                android:id="@+id/iv_aty_head_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/title_icon_return_up" />
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+    <View
+            android:id="@+id/v_head_aty_top_line"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/tv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="添加"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:id="@+id/v_head_right_img"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:onClick="onClick"
+                android:paddingRight="13dp"
+                android:visibility="gone">
+
+            <ImageView
+                    android:id="@+id/iv_head_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+

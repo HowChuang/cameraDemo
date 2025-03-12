@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_view">#50000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="grgray">#686868</color>
+    <!-- 自定义 tabbar 字体颜色 -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="color_0d70d8">#0d70d8</color>
+    <color name="ssp_blue">#FF3478FF</color>
+
+</resources>

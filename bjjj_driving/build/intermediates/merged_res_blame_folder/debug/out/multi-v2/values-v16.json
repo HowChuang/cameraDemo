@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zcbl.bjjj_driving.bJJJ_Driving-mergeDebugResources-3:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/b7971007e7f313697d23fe0f695b8d93/transformed/core-1.2.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/zhaoweichuang/Documents/studio/sdk/caches/transforms-3/648f97be2830cb3a30bba655cac0e166/transformed/appcompat-1.0.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

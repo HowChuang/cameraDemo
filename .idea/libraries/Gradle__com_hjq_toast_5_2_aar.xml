@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hjq:toast:5.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/transforms-3/03d32d353986ac455200e8f4c075abbe/transformed/jetified-toast-5.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Documents/studio/sdk/caches/transforms-3/03d32d353986ac455200e8f4c075abbe/transformed/jetified-toast-5.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/modules-2/files-2.1/com.hjq/toast/5.2/2902dd3eedf457ce7e9e2c765f3914a97f0213ab/toast-5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/modules-2/files-2.1/com.hjq/toast/5.2/b2a3bba1def3128c2b068a4fd48572b53322628d/toast-5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

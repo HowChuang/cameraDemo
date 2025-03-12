@@ -1,0 +1,1350 @@
+[
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_btn_back_to_camera_pressed.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/btn_back_to_camera_pressed.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xhdpi_ssp_icon_camera.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xhdpi/ssp_icon_camera.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xhdpi_bg_nav_bar.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xhdpi/bg_nav_bar.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_btn_background_logout.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/btn_background_logout.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_white_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_white_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_home_icon_message.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/home_icon_message.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_personalcenter_button_next.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/personalcenter_button_next.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_appcorlor_cgs_24.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_appcorlor_cgs_24.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_type_select.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_type_select.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_sgd_open.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_sgd_open.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_bg_video.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_bg_video.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_baner_car.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/baner_car.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_help.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_help.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_aty_preview_video.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_aty_preview_video.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_sousuo.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/sousuo.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_code_msg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_code_msg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_mine_pre.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/mine_pre.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_news_loadfalse.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/news_loadfalse.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_camera_first.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_camera_first.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_anim_from_up_to_down.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/anim_from_up_to_down.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_iv_login_pressed.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/iv_login_pressed.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_loading_1.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/loading_1.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_wheel_bg.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/wheel_bg.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_left.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/left.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_slide_out_to_right.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/slide_out_to_right.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_top_l.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_top_l.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_portrait.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_portrait.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_img_bg1_select.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_img_bg1_select.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_news.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/news.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_toumingedit.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/toumingedit.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_tianjia.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/tianjia.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_richpush_btn_selector.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/richpush_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_my_proposal.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/my_proposal.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_layout_local_error.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_layout_local_error.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_toast_bg.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_home_pre.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/home_pre.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_1dp__content_white_radis_50dp.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_1dp__content_white_radis_50dp.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_jlcx_kaifazhong.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/jlcx_kaifazhong.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_greay_dark_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_greay_dark_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_app_logo.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/app_logo.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_iv_default.jpg.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/iv_default.jpg"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_btn_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_btn_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_personalcenter_icon_portrait.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/personalcenter_icon_portrait.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_icon_back02.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/icon_back02.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_dialog_tips.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/dialog_tips.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_personalcenter_icon_rewards.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/personalcenter_icon_rewards.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_greay_round_50.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_greay_round_50.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_left.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/left.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_xuxianbaibeijing.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/xuxianbaibeijing.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_historical_case_details_default_photo.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/historical_case_details_default_photo.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_right_arrow.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/right_arrow.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_suggest.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_suggest.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xhdpi_personalcenter_top_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xhdpi/personalcenter_top_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_home_icon_safe.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/home_icon_safe.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_iv_small_down1.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/iv_small_down1.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_banlijilv.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/banlijilv.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_delate.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/delate.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_photo_dialog_out_anim.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/photo_dialog_out_anim.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_prompt_wh.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/prompt_wh.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_banner_home_bottom.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/banner_home_bottom.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_blue_round_50.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_blue_round_50.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_greay_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_greay_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_wheel_val.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/wheel_val.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_iv_login_normal.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/iv_login_normal.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_video_stop.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_video_stop.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_guanbi.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/guanbi.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_icon_car.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/icon_car.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_personalcenter_icon_problem.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/personalcenter_icon_problem.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_bjjj_splash.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/bjjj_splash.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_mynext.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/mynext.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_common_half_black.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/common_half_black.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_progress_horizontal.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/progress_horizontal.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_wufabanli.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/wufabanli.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_help_2.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_help_2.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_boder_rount_photo.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/boder_rount_photo.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_right_image.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/right_image.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_shape_1417181a_rectangle.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/shape_1417181a_rectangle.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_1dp__content_white.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_1dp__content_white.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_icon_back2_click.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/icon_back2_click.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_5round_orange.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_5round_orange.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_bg_yuanjiaoleft.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/bg_yuanjiaoleft.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_white_top_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_white_top_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_d.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_d.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_bjjj_icon.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/bjjj_icon.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_wfcx_on_icon.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/wfcx_on_icon.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_cgs_bg_radian.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/cgs_bg_radian.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_icon_share.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/icon_share.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_white_round_50.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_white_round_50.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_home.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/home.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_wheel_val.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/wheel_val.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_dialog_login_verify_refresh.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/dialog_login_verify_refresh.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_left.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/left.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_common_ssp_video_btn.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/common_ssp_video_btn.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_aty_preview_pic.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_aty_preview_pic.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_bg_yuanjiaoright.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/bg_yuanjiaoright.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_ssp_upload_float.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/ssp_upload_float.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_ssp_bg_shadow.9.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/ssp_bg_shadow.9.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_icon_back.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/icon_back.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_wifi.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_wifi.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_loading_false.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/loading_false.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_mynext.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/mynext.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_reg_head.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/reg_head.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_mine_add_car.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/mine_add_car.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_photo_delete.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_photo_delete.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_shenhezhong.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/shenhezhong.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_icon_def.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/icon_def.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_login_verify_ing.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/login_verify_ing.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_layout_take_pic.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_layout_take_pic.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_blue_bototm_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_blue_bototm_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_shape_loading.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/shape_loading.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_progress_bar_circle.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/progress_bar_circle.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_green_bg.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_green_bg.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_loading.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_loading.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_video_delete.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_video_delete.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_my_data.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/my_data.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_unmoment_add_seclect.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/unmoment_add_seclect.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_layout_take_video.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_layout_take_video.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_news_pre.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/news_pre.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_bg_def.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_bg_def.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_local_about.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_local_about.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_repairbtn_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_repairbtn_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_news_empty_message.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/news_empty_message.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_help_1.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_help_1.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_video_icon_delete.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_video_icon_delete.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_ic_fouces.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/ic_fouces.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_home_icon_help.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/home_icon_help.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_bule_ssp.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_bule_ssp.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_bg_ssp.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_bg_ssp.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_finish.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_finish.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_ic_richpush_actionbar_back.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/ic_richpush_actionbar_back.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_home.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/home.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_history_bg_black.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/history_bg_black.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_video_icon_complete.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_video_icon_complete.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_wfcx_on_icon.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/wfcx_on_icon.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_slide_in_from_right.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/slide_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_dialog_city_select.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/dialog_city_select.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_addcar.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/addcar.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_btn_repair_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_btn_repair_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_applye_jjz_pre.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_applye_jjz_pre.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_bg_banner.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/bg_banner.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_common_title.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/common_title.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_common_btn_zhuxiao.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/common_btn_zhuxiao.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_expose_hint_dialog.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/expose_hint_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_button_cancel.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_button_cancel.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_search.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/search.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_iv_login_normal.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/iv_login_normal.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_msg_signal.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_msg_signal.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_guanbi.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/guanbi.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_big_round_orange.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_big_round_orange.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_prompt_engine.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/prompt_engine.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_loading_animation.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/loading_animation.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_white_round_4.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_white_round_4.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_dialog_update_app.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/dialog_update_app.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_delete.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_delete.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_bjjj_icon.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/bjjj_icon.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_white_round_bg.9.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/white_round_bg.9.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_location_area.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_location_area.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_moment_web_links.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/moment_web_links.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_mynext.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/mynext.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_success_bg_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_success_bg_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_video_button_later.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_video_button_later.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_home_pre.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/home_pre.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_line_50.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_line_50.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_checkboxed.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_checkboxed.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_tianjiacheliang.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/tianjiacheliang.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_anim_loding.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/anim_loding.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_loading_anim.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/loading_anim.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_myedition.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/myedition.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_greay_cgs_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_greay_cgs_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_leftrighttop_5.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_leftrighttop_5.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_bule_ssp_def.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_bule_ssp_def.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_img_bg2_select.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_img_bg2_select.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_bjjj_splash.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/bjjj_splash.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_btn_back_to_camera_normal.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/btn_back_to_camera_normal.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_line_withe_big_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_line_withe_big_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_kapianfanye.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/kapianfanye.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_ssp_btn_close.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/ssp_btn_close.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_ssbx_czlc.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_ssbx_czlc.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_fuqi.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_fuqi.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_aty_camera_video.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_aty_camera_video.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_icon_share.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/icon_share.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_banner_background.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/banner_background.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_news_video_play.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/news_video_play.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_photograph_up.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/photograph_up.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_aty_common_head.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/aty_common_head.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_grey__content_white_radis_50dp.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_grey__content_white_radis_50dp.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_img_bg2_default.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_img_bg2_default.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_appcorlor_cgs.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_appcorlor_cgs.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_photobtn_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_photobtn_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_aty_photo_preview.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_aty_photo_preview.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_bottom_l.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_bottom_l.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_dialog_video_survey_hint.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/dialog_video_survey_hint.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_carno_select_bg.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/carno_select_bg.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_edit_delete.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/edit_delete.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_sgd_close.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_sgd_close.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_iv_login_pressed.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/iv_login_pressed.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_sjh.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_sjh.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_sj2x.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_sj2x.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_msg_report.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_msg_report.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_location_gps.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/location_gps.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_record.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_record.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_camera_power.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_camera_power.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_arror_down.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/arror_down.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_reg_pwd.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/reg_pwd.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_title_icon_return_up.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/title_icon_return_up.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_ic_close.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_finish_right.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_finish_right.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_power_1.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_power_1.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_ssp_media_contral.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/ssp_media_contral.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_delete_but_red.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/delete_but_red.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_success_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_success_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_news_pre.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/news_pre.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_keshenqing.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/keshenqing.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_xiangqing.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/xiangqing.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_web_top_close.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/web_top_close.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_home_login.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/home_login.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_appcorlor_5_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_appcorlor_5_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_personalcenter_icon_report.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/personalcenter_icon_report.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_appcorlor_select_day.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_appcorlor_select_day.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_history_bg_black_select.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/history_bg_black_select.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_go_first_pager.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/go_first_pager.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_mine.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/mine.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_wfcx_off_icon.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/wfcx_off_icon.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_dialog_login_verify_loadfalse.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/dialog_login_verify_loadfalse.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_black_camer.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_black_camer.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_btn_back_02_selector.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/btn_back_02_selector.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_home_button_return.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_home_button_return.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_dialog_loading_new.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/dialog_loading_new.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_bule_cgs.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_bule_cgs.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_shape_1417181a_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/shape_1417181a_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_bjjj_icon.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/bjjj_icon.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_icon_jifen.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/icon_jifen.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_wfcx_off_icon.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/wfcx_off_icon.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xhdpi_ssp_green_circle.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xhdpi/ssp_green_circle.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_background_tab.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/background_tab.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_maps.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_maps.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_ic_camera.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_top_r.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_top_r.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_common_half_black_5.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/common_half_black_5.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_spb_bg_blue.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/spb_bg_blue.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_ssp_media_def.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/ssp_media_def.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_video_icon_location.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/video_icon_location.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_iv_coursor.gif.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/iv_coursor.gif"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_no.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_no.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_home_mian_blue_line.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/home_mian_blue_line.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_safe.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_safe.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_icon_back2.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/icon_back2.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_wutongxingren.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/wutongxingren.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_camera_law.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_camera_law.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_bg_about.jpeg.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/bg_about.jpeg"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/xml_file_provider_paths.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/xml/file_provider_paths.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_ssp_abnormal.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_ssp_abnormal.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_5round_blue.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_5round_blue.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_unmoment_add_seclect_top.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/unmoment_add_seclect_top.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_wheel_bg.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/wheel_bg.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_aty_permission.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_aty_permission.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_home_btn_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/home_btn_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_common_line.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/common_line.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_iv_login_selector.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/iv_login_selector.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_camera_repair.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_camera_repair.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_neng.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/neng.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_appcorlor_luou.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_appcorlor_luou.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_btn_long_bg_press.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/btn_long_bg_press.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_bule_ssp_timer.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_bule_ssp_timer.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_ic_switch_camera.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/ic_switch_camera.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_blue.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/blue.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_white_circle.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/white_circle.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_slide_in_from_left.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/slide_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_orange_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_orange_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_show_frome_samle.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/show_frome_samle.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_common_line_grey_bg_white.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/common_line_grey_bg_white.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_icon_jifen.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/icon_jifen.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_maptop_shadow.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_maptop_shadow.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_red_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_red_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_dialog_loading_bg.9.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/dialog_loading_bg.9.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_w.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_w.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_progress_bar_horizontal.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/progress_bar_horizontal.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_shape_video_survey_transition.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/shape_video_survey_transition.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_dian_big.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/dian_big.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_applye_jjz_normal.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_applye_jjz_normal.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_icon_car.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/icon_car.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_focusview_show.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/focusview_show.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_scale_default.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_scale_default.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_ic_richpush_actionbar_divider.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/ic_richpush_actionbar_divider.png"
+    },
+    {
+        "merged": "com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_ssp_aty_camera_video.xml.flat",
+        "source": "com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/ssp_aty_camera_video.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_greay_jjz_time_round.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_greay_jjz_time_round.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_serenity_tuoyuan.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/serenity_tuoyuan.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_cg_icon_time_yy.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/cg_icon_time_yy.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_dialog_login_verify_tuoyuan.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/dialog_login_verify_tuoyuan.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_storage.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_storage.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_listview_anim_layout.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/listview_anim_layout.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_unmoment_add_pic_photo.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/unmoment_add_pic_photo.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_icon_back_bai.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/icon_back_bai.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_no_power.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_no_power.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_push_bottom_out.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_bjjj_splash.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/bjjj_splash.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_mine_pre.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/mine_pre.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_location_per.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_location_per.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_5round_green.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_5round_green.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_line.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/line.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_dialog_token_out.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/dialog_token_out.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_common_line_grey.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/common_line_grey.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_news.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/news.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_jjz_no.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_jjz_no.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_btn_long_bg_normal.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/btn_long_bg_normal.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_delate.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/delate.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_bg_camera_id.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_bg_camera_id.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_loading_0.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/loading_0.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_icon_micro.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/icon_micro.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_rotate_loading_ainm.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/rotate_loading_ainm.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_help_3.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_help_3.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_photo_dialog_in_anim.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/photo_dialog_in_anim.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xxhdpi_mine.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xxhdpi/mine.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_common_line_big_round_blue.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/common_line_big_round_blue.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_push_bottom_in.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_mydelete_cache.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/mydelete_cache.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_btn_back_to_camera_selector.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/btn_back_to_camera_selector.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_icon_def.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/icon_def.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_greay_round_8.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_greay_round_8.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_color_cursor.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/color_cursor.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_common_greay_round_2.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/common_greay_round_2.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_tempview_show.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/tempview_show.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_bg_user.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_bg_user.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_iv_small_other_car.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/iv_small_other_car.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_checkbox.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_checkbox.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_listview_anim.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/listview_anim.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-xhdpi_camerasdk_pic_loading.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-xhdpi/camerasdk_pic_loading.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_finish_re.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_finish_re.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_bottom_r.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_bottom_r.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_icon_scale_2x.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_icon_scale_2x.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/anim_slide_out_to_left.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/anim/slide_out_to_left.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_video_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_video_bg.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable_btn_photopage_top_bar_selector.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable/btn_photopage_top_bar_selector.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/drawable-hdpi_icon_back02_click.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/drawable-hdpi/icon_back02_click.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xxhdpi_ssp_code_phone.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xxhdpi/ssp_code_phone.png"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/layout_dialog_loading.xml.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/layout/dialog_loading.xml"
+    },
+    {
+        "merged": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-merged_res-5:/mipmap-xhdpi_ssp_grade_withe_bg.png.flat",
+        "source": "/Users/zhaoweichuang/Documents/studio/sdk/daemon/7.5/com.zcbl.bjjj_driving.bJJJ_Driving-main-7:/mipmap-xhdpi/ssp_grade_withe_bg.png"
+    }
+]

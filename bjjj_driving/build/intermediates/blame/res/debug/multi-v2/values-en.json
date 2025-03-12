@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/takephoto_library-4.0.3.aar/fa85ad34e6d3eaf9e3283b612d90d62c/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,146,209,292,365,426,531,583,693,823,935,977",
+                        "endColumns": "90,62,82,72,60,104,51,109,129,111,41,66",
+                        "endOffsets": "141,204,287,360,421,526,578,688,818,930,972,1039"
+                    }
+                }
+            ]
+        }
+    ]
+}

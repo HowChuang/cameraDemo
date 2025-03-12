@@ -1,0 +1,4 @@
+# Referenced at /Users/rendy/Desktop/bjjbld_android/bjjj_android_main/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/merged_manifests/debug/AndroidManifest.xml:83
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/rendy/Desktop/bjjbld_android/bjjj_android_main/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/merged_manifests/debug/AndroidManifest.xml:83
+-keep class com.zcbl.manager.MyApplication { <init>(); }

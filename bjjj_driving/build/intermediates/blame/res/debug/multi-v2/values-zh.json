@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhaoweichuang/Desktop/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc11.aar/b6b2531f998967a7bd81fb0d3dd56244/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,165,222,280,339,392,450,501",
+                        "endColumns": "55,53,56,57,58,52,57,50,56",
+                        "endOffsets": "106,160,217,275,334,387,445,496,553"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "540,596,650,707,765,824,877,935,986",
+                        "endColumns": "55,53,56,57,58,52,57,50,56",
+                        "endOffsets": "591,645,702,760,819,872,930,981,1038"
+                    }
+                },
+                {
+                    "source": "/Users/zhaoweichuang/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.8.0.aar/2fd80e47056615832de054253fc804b4/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,135,182,234,286,353,418,480,540",
+                        "endColumns": "79,46,51,51,66,64,61,59,64",
+                        "endOffsets": "130,177,229,281,348,413,475,535,600"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,135,182,234,286,353,418,480,1043",
+                        "endColumns": "79,46,51,51,66,64,61,59,64",
+                        "endOffsets": "130,177,229,281,348,413,475,535,1103"
+                    }
+                }
+            ]
+        }
+    ]
+}

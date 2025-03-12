@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zcbl.bjjj_driving"
+    android:versionCode="108"
+    android:versionName="3.4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+    <!-- 二维码的权限 -->
+    <permission
+        android:name="com.zcbl.bjjj_driving.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 二维码的权限 MOUNT_UNMOUNT_FILESYSTEMS hua clear -->
+
+
+    <!-- 友盟申请权限 -->
+    <!-- 极光推送申请权限 -->
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- hua clear -->
+    <!-- <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" /> -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- //上闪光灯功能 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- 自己配的权限 -->
+    <!-- <uses-feature android:name="android.hardware.camera2.full" /> -->
+    <!-- <uses-feature android:name="android.hardware.camera" /> -->
+    <!-- <uses-feature android:name="android.hardware.camera.autofocus" /> -->
+
+
+    <!-- 百度地图申请权限 -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <!-- 适配折叠屏 -->
+    <!-- android:configChanges="screenSize|smallestScreenSize|screenLayout" -->
+
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <!-- 去除第三方请求电话权限 -->
+
+    <!-- 闪光灯 -->
+    <permission
+        android:name="android.permission.FLASHLIGHT"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" /> <!-- 违法举报camera权限 -->
+    <application
+        android:name="com.zcbl.manager.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/bjjj_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme"
+        android:usesCleartextTraffic="true"
+        android:vmSafeMode="true" >
+        <activity
+            android:name="com.zcbl.home.SplashActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zcbl.manager.MainActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 百度地图：公司m3qfVmx9goVKjIGuKa2U9vWr -->
+        <!-- QGmY18DcngH9G9AIEZ8wlgnpIr2855zg 自己的 -->
+
+        <activity
+            android:name="com.zcbl.home.ZhuxiaoSuccessActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.HomeHistoryActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.TokenErrorDialogActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.zcbl.home.ZhuxiaoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.ZhuxiaoYZMActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.SystemPermissionActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.driving_simple.activity.bjjj.CommentWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.NetDiagnoseActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.driving_simple.activity.QRCodeScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.driving_simple.activity.bjjj.NoRefreshWebViewActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.old.JjzOldHomeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.JinjingHomeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.JjzLanjieActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.JjzIntroduceActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.LoginActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.LoginYztBjjjActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.HistoryApplyAllActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.WebviewActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.HistoryApplyActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.ApplyJjzSuccessActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.ApplyJjzDownloadActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.AllFunctionActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.NotificationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.SettingActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.AboutActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.ShowBigActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.CartypeRecommendActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTSanFangYuyueActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTHomeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.CgsShouQuanActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTChaYanFJDCActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTJySuccessActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTInputCodeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTqdResultActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.HomeCgsActivty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.DeparmentDetailActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.SearchCGSNewActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.PhoneCGSActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.YhSuccessCarServiceActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.SearchJCCXActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.SearchHPZlActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.YiHaoFeedActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.BanliziliaoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.IntruduceFuqiServiceWebActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.ChangShangListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.PinpaiListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.XinghaoListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.AddServiceJSZActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.ServiceSearchNewActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.AddServiceSFZActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.CGSFeedBackAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.ControlSuccessActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.ControlFailedActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.QRCodeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTShowXSZinfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.ShowJSZinfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.ShowSFZinfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.ShowXSZinfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.MapDepartActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.ServiceListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.ServiceInduceActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.PhotoPickerActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.ShowZhibiaoInfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.MyXSZListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.SelectTimeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.YuyueSuccessCarServiceActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.AddServiceZhiBiaoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.ServiceGuideActiity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.ServielistActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.DetailCarService15Activity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.DetailYHActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.AddServiceLinShiCheActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTShowLinShiCheinfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.TakePictureZJActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.AddServiceFJDCActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTShowFJDCInfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.AddServiceXSZActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.ServiceSelectXSZListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.SubmitYuyueActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTShowSFZinfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTShowJSZinfoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.XingShiZhengListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.MinZuListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.MineZhengjianActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.AddShenFenZhengActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.AddJiaShiZhengActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.AddXingShiZhengctivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.SelectZhengjianActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.mine.MyJSZListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.gongzuotai.GZTDetailServiceActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.cheguansuo.service.BanliWangdianActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.CreateBreakLowActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.zcbl.suishoupai.UserCenterAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.MapSspActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.CreateSspSuccessAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.MessageAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.SspIntroduceActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.SSPFeedBackAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 随手拍项目 -->
+        <activity
+            android:name="com.zcbl.suishoupai.SSPFeedListAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.HistoryReportAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.HistoryReapirActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.HelpActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.DetailSspSendAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.PlayVideoSspActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.zcbl.suishoupai.PlayPictureSspActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.SspLocalErrorAty"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.SspFlowActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.SspPermissionActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.CreateBreakRepairActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.zcbl.suishoupai.PhotoPreviewActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.HomeSSPActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.zcbl.suishoupai.SspFlowRepairActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.suishoupai.BlackResionActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.home.FlutterOpenActivityy"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 新版进京证 -->
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.CarListActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.DianziZhengjianNoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.ModifyCarActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.AddJjCarActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.OcrResultXszActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.ApplyJjz1Activity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.ApplyJjz2Activity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.ApplyJjz3Activity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.DetailCarActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.DetailJjzActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.DianziZhengjianActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.HistoryZhengjianActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.JjzXieyiActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.WebviewJjzActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.BanZhengChuActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.BanZhengChuDetailActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.TakePictureJjzActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.MapJjzActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.JjzInputLocaActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zcbl.jinjingzheng.service.OcrResultJszActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="570de6c1e0f55a32400021e8" />
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="qDLUGopROrPQc9dCpmOWeqSIP5YlHg5T" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="ae2e242662b207323a06cf93cc33f491" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.zcbl.bjjj_driving.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!-- Android 6.0不再支持 Apache HTTP client -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="cn.rendy.player.PlayerAppActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="cn.rendy.player.PreviewVideoActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.ccb.zxinglibrary.ui.ScanActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.baidu.ocr.ui.camera.CameraActivity"
+            android:configChanges="screenSize|orientation"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity
+            android:name="com.yanzhenjie.permission.PermissionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="standard"
+            android:theme="@style/Permission.Theme.Activity"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+
+        <provider
+            android:name="com.yanzhenjie.permission.FileProvider"
+            android:authorities="com.zcbl.bjjj_driving.file.path.share"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/permission_file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.darsh.multipleimageselect.activities.AlbumSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/MultipleImageSelectTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.darsh.multipleimageselect.activities.ImageSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/MultipleImageSelectTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

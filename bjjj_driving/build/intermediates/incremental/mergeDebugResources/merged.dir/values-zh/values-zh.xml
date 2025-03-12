@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crop_image_activity_no_permissions">正在取消，该操作未获得所需权限。</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">裁剪</string>
+    <string name="crop_image_menu_flip">翻转</string>
+    <string name="crop_image_menu_flip_horizontally">水平翻转</string>
+    <string name="crop_image_menu_flip_vertically">垂直翻转</string>
+    <string name="crop_image_menu_rotate_left">逆时针旋转</string>
+    <string name="crop_image_menu_rotate_right">旋转</string>
+    <string name="permission_name_calendar">日历</string>
+    <string name="permission_name_camera">相机</string>
+    <string name="permission_name_contacts">通讯录</string>
+    <string name="permission_name_location">位置信息</string>
+    <string name="permission_name_microphone">麦克风</string>
+    <string name="permission_name_phone">电话</string>
+    <string name="permission_name_sensors">身体传感器</string>
+    <string name="permission_name_sms">短信</string>
+    <string name="permission_name_storage">存储空间</string>
+    <string name="pick_image_intent_chooser_title">选择来源</string>
+</resources>

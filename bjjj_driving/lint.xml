@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="MissingTranslation">
+        <ignore path="res/values/strings.xml" />
+        <ignore path="res/values/umeng_socialize_strings.xml" />
+    </issue>
+    <issue id="NewApi" severity="ignore" />
+    <issue id="ValidFragment" severity="ignore" />
+</lint>

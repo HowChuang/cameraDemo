@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.chrisbanes.photoview:library:1.2.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/transforms-3/fe05b0a7e94c5c89a2a48d5136c4ebc1/transformed/jetified-library-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Documents/studio/sdk/caches/transforms-3/fe05b0a7e94c5c89a2a48d5136c4ebc1/transformed/jetified-library-1.2.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/modules-2/files-2.1/com.github.chrisbanes.photoview/library/1.2.4/cff145757884600da82c5ec8ff04bbef5078b6d5/library-1.2.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Documents/studio/sdk/caches/modules-2/files-2.1/com.github.chrisbanes.photoview/library/1.2.4/eb8cba6ac4ad37ff0c9b99cda2c9d80ea407b20d/library-1.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

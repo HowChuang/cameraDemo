@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion cfgs.compileSdkVersion
+    buildToolsVersion cfgs.buildToolsVersion
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.zcbl.bjjj_driving"
+        minSdkVersion cfgs.minSdkVersion
+        targetSdkVersion cfgs.targetSdkVersion
+        versionCode cfgs.versionCode
+        versionName cfgs.versionName
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+        ndk {
+            abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86'
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "0a093baa0f59e7e740f5e616",
+                JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+        ]
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+
+    }
+
+    buildTypes {
+
+    }
+    //网易盾需要
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+
+
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/services/com.fasterxml.jackson.core.ObjectCodec'
+        exclude 'META-INF/services/com.fasterxml.jackson.core.JsonFactory'
+        exclude 'META-INF/maven/com.squareup.okhttp/okhttp/pom.properties'
+        exclude 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okio/okio/pom.properties'
+        exclude 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml'
+        exclude 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties'
+        exclude 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties'
+        exclude 'META-INF/maven/com.squareup.okio/okio/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okhttp/okhttp/pom.xml'
+        exclude 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties'
+        exclude 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml'
+        exclude 'META-INF/maven/com.wilddog.client/wilddog-core-android/pom.xml'
+        exclude 'META-INF/maven/com.wilddog.client/wilddog-core-android/pom.properties'
+        exclude 'META-INF/maven/com.wilddog.client/wilddog-auth-android/pom.xml'
+        exclude 'META-INF/maven/com.wilddog.client/wilddog-auth-android/pom.properties'
+        exclude 'META-INF/rxjava.properties'
+
+        doNotStrip '*/mips/*.so'
+        doNotStrip '*/mips64/*.so'
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDir 'libs'
+            jni.srcDirs = []    //disable automatic ndk-build
+        }
+    }
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.code.gson:gson:2.2.1'
+    implementation 'cn.bingoogolapple:bga-qrcode-zxing:1.2.5'
+    implementation 'jp.wasabeef:glide-transformations:2.0.1'
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:3.1.0'
+    implementation 'com.yanzhenjie:permission:2.0.0-rc11'
+    implementation 'com.lzy.net:okgo:3.0.4'
+    implementation 'com.alibaba:fastjson:1.2.10'
+    implementation 'com.hjq:toast:5.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation 'com.github.chrisbanes.photoview:library:1.2.4'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+}

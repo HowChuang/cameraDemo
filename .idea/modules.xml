@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BJJJ_Driving_Android.iml" filepath="$PROJECT_DIR$/BJJJ_Driving_Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bJJJ_Driving/BJJJ_Driving_Android.bJJJ_Driving.iml" filepath="$PROJECT_DIR$/.idea/modules/bJJJ_Driving/BJJJ_Driving_Android.bJJJ_Driving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bJJJ_Driving/BJJJ_Driving_Android.bJJJ_Driving.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/bJJJ_Driving/BJJJ_Driving_Android.bJJJ_Driving.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bJJJ_Driving/BJJJ_Driving_Android.bJJJ_Driving.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bJJJ_Driving/BJJJ_Driving_Android.bJJJ_Driving.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bJJJ_Driving/BJJJ_Driving_Android.bJJJ_Driving.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/bJJJ_Driving/BJJJ_Driving_Android.bJJJ_Driving.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gestureimageview/BJJJ_Driving_Android.gestureimageview.iml" filepath="$PROJECT_DIR$/.idea/modules/gestureimageview/BJJJ_Driving_Android.gestureimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gestureimageview/BJJJ_Driving_Android.gestureimageview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gestureimageview/BJJJ_Driving_Android.gestureimageview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gestureimageview/BJJJ_Driving_Android.gestureimageview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gestureimageview/BJJJ_Driving_Android.gestureimageview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gestureimageview/BJJJ_Driving_Android.gestureimageview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gestureimageview/BJJJ_Driving_Android.gestureimageview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxinglibrary/BJJJ_Driving_Android.zxinglibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/zxinglibrary/BJJJ_Driving_Android.zxinglibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxinglibrary/BJJJ_Driving_Android.zxinglibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/zxinglibrary/BJJJ_Driving_Android.zxinglibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxinglibrary/BJJJ_Driving_Android.zxinglibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/zxinglibrary/BJJJ_Driving_Android.zxinglibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxinglibrary/BJJJ_Driving_Android.zxinglibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/zxinglibrary/BJJJ_Driving_Android.zxinglibrary.unitTest.iml" />
+    </modules>
+  </component>
+</project>

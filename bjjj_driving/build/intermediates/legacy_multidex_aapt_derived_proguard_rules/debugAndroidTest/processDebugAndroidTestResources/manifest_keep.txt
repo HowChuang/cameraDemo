@@ -1,0 +1,2 @@
+# Referenced at /Users/rendy/Desktop/bjjbld_android/bjjj_android_main/BJJJ_Driving_Android/bJJJ_Driving/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml:9
+-keep class com.android.test.runner.MultiDexTestRunner { <init>(); }

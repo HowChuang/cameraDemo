@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="194dp"
+    android:orientation="vertical">
+    <!--默认初始化布局-->
+    <LinearLayout
+            android:id="@+id/area_def"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:text="视频需拍摄12秒以上"
+                android:textColor="#ff666666"
+                android:textSize="14sp" />
+
+        <RelativeLayout
+                android:id="@+id/area_starVideo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@mipmap/ssp_video_bg">
+
+            <ImageView
+                    android:id="@+id/iv_loading"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/ssp_icon_loading"
+                    android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_video"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ssp_bg_video" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <!--录制过程布局-->
+    <LinearLayout
+            android:id="@+id/area_process"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/tv_index_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                android:text="·"
+                android:textColor="#06DEAD"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="0:0"
+                android:textColor="@color/color_333333"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+
+            <LinearLayout
+                android:id="@+id/area_cancle"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ssp_btn_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/iv_cancle_top"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@mipmap/ssp_video_icon_delete" />
+
+                <ImageView
+                    android:id="@+id/iv_finish_top"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@mipmap/ssp_video_icon_complete"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_video_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="取消"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--文字导航-->
+    <RelativeLayout
+        android:id="@+id/area_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:id="@+id/area_video_1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拍视频"
+                android:textStyle="bold"
+                android:textColor="@color/ssp_blue"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tv_nav_index_1"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/common_bule_ssp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/area_video_2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/area_video_1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="拍照片"
+                android:textColor="#ff666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_nav_index_2"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/common_bule_ssp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
